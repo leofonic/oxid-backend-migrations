@@ -1,6 +1,6 @@
 {
-    "name":        "zunderweb/zwb-migrations",
-    "description": "Execute Database Migration Command from Oxid Backend",
+    "name":        "zunderweb/oxid-backend-migrations",
+    "description": "OXID eShop: Execute Database Migration Command from Backend",
     "type":        "oxideshop-module",
     "keywords":    [
         "oxid",
@@ -24,7 +24,8 @@
         }
     },
     "require":     {
-        "php": ">=5.6"
+        "php": ">=5.6",
+        "oxid-esales/oxideshop-ce": "^v6.0"
     },
     "autoload":    {
         "psr-4": {
