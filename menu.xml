@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<OX>
+    <OXMENU id="NAVIGATION_ESHOPADMIN">
+        <MAINMENU id="mxservice">
+            <SUBMENU id="zwb_migrations" cl="zwb_migrations" list="zwb_migrations_list" rights="malladmin" disableForDemoShop="1" >
+                <TAB id="zwb_migrations_main" cl="zwb_migrations_main" disableForDemoShop="1" />
+            </SUBMENU>
+        </MAINMENU>
+    </OXMENU>
+</OX>

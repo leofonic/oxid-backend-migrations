@@ -1,0 +1,36 @@
+{
+    "name":        "zunderweb/zwb-migrations",
+    "description": "Execute Database Migration Command from Oxid Backend",
+    "type":        "oxideshop-module",
+    "keywords":    [
+        "oxid",
+        "modules",
+        "eShop"
+    ],
+    "homepage":    "https://www.zunderweb.de",
+    "license":     [
+        "GPL-3.0",
+        "proprietary"
+    ],
+    "authors":     [
+        {
+            "name":  "zunderweb",
+            "email": "info@zunderweb.de"
+        }
+    ],
+    "extra":       {
+        "oxideshop": {
+            "target-directory": "zunderweb/zwb_migrations"
+        }
+    },
+    "require":     {
+        "php": ">=5.6"
+    },
+    "autoload":    {
+        "psr-4": {
+            "zunderweb\\zwb_migrations\\": "../../../source/modules/zunderweb/zwb_migrations"
+        }
+    }
+}
+
+
