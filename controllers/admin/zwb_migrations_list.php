@@ -6,7 +6,7 @@ use \OxidEsales\Facts\Facts;
 use \OxidEsales\DoctrineMigrationWrapper\Migrations;
 use Symfony\Component\Console\Output\Output;
 use Symfony\Component\Console\Output\BufferedOutput;
-use zunderweb\zwb_migrations\migration_wrapper\MigrationsBuilder;
+use \OxidEsales\DoctrineMigrationWrapper\MigrationsBuilder;
 
 class zwb_migrations_list extends \OxidEsales\Eshop\Application\Controller\Admin\AdminListController
 {
