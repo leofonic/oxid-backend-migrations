@@ -7,7 +7,7 @@ $aModule = array(
         'de'=>'Erm&ouml;glicht die Ausf&uuml;hrung der Datenbank Migration ohne Kommandozeile. Sie finden diese Option unter Service/Migrations.',
         'en'=>'Makes it possible to execute database migrations without commandline. The option can be found in Service/Migrations.',
     ),
-    'version'     => '0.0.1',
+    'version'     => '0.1.2',
     'url'         => 'http://zunderweb.de',
     'email'       => 'info@zunderweb.de',
     'author'      => 'Zunderweb',
